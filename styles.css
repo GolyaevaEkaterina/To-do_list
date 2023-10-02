@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Comfortaa;
+}
+
+.background{
+    background-image: linear-gradient( to left top, #E3F9E5, transparent ), url(/images/background1.jpg) ;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100vh;
+}
+
+
+.conteiner{
+    max-width: 1024px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border: 1px solid #E3F9E5;
+    border-radius: 20px;
+    background: #E3F9E5;
+    box-shadow: 5px 5px 10px #B3ECFF;
+}
+
+h1{
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-weight: 900;
+    color: #2D3A8C;
+}
+.input{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 400px;
+    height: 35px;
+    background: #E3F9E5;
+    border: 1px solid #2D3A8C;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: Comfortaa;
+    color: #2D3A8C;
+    font-size: 16px;
+    box-shadow: 3px 3px 7px #98AEEB;
+   
+}
+.input:focus{
+    outline: none;
+}
+.button{
+    height: 40px;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 500;    
+    font-family: Comfortaa;
+    border-radius: 10px;
+    border: none ;
+    background: #4C63B6;
+    color: #E3F9E5;
+    box-shadow: 3px 3px 7px #98AEEB;
+}
+.button:hover{
+    background: #4055A8;
+    cursor: pointer;
+}
+.button:active{
+    background: #35469C;
+}
+
+.list{
+    margin-left: 100px; 
+    margin-right: 100px;
+    padding-top: 30px;
+    color:#35469C;
+    font-size: 24px;
+    max-width: 900px;
+}
+
+li{
+    padding-bottom: 20px;
+   
+    overflow-wrap: break-word;
+}
