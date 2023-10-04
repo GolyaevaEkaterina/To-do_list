@@ -25,6 +25,6 @@ function makeTest(){
     if (count > 5){
         alert("Можно ввести не больше 5 дел.")
     }else{
-        myList.innerHTML = myList.innerHTML + "<li></li>" + count + ". " + value + "."
+        myList.innerHTML = myList.innerHTML + "<li> </li>" + count + ". " + value + "."
     }
 }
